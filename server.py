@@ -11,11 +11,18 @@ app = Flask(__name__, static_url_path='', static_folder='static')
 def about():
 
 
+
+
     return render_template('about.html')
 
 @app.route('/index')
 def index():
 
-    return render_template('index.html')
+
+    f = open("templates/scores.json", "r")
+    data = json.load(f)
+    f.close()
+
+    return render_template('index.html', data = data)
 
 app.run(debug=True)

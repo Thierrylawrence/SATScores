@@ -25,4 +25,18 @@ def index():
 
     return render_template('index.html', data = data)
 
+
+
+@app.route('/graph')
+def graph():
+
+
+    f = open("templates/scores.json", "r")
+    data = json.load(f)
+    f.close()
+
+    return render_template('graph.html', data = data)
+
+
+
 app.run(debug=True)

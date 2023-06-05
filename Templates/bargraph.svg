@@ -11,14 +11,17 @@
      <style> .turn {transform: rotate(-90deg)} </style>
 
 
-     <line  x1 ="80" y1 = "410" x2 = "450" y2 = "410"/>
-     <text class = "turn" x = "200" y = "15" text-anchor="middle">Life Expectancy (years)</text>
-     <line x1 ="80" y1 = "410" x2 = "80" y2 = "10"/>
-
-
      <text class = "text" x = "80" y = "430" text-anchor="middle"> Start of Year</text>
 
      <text class = "text" x = "450" y = "430" text-anchor="middle"> End of Year</text>
+
+
+
+
+          \<line  x1 ="80" y1 = "410" x2 = "450" y2 = "410"/>
+     <text class = "turn" x = "200" y = "15" text-anchor="middle"> yes </text>
+     <line x1 ="80" y1 = "410" x2 = "80" y2 = "10"/>
+
 
 
 

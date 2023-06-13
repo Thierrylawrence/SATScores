@@ -9,7 +9,7 @@ app = Flask(__name__, static_url_path='', static_folder='static')
 
 @app.route('/')
 def about():
-    
+
     return render_template('about.html')
 
 @app.route('/index')
@@ -32,7 +32,7 @@ def graph():
     data = json.load(f)
     f.close()
 
-    return render_template('graph.html', data = data)
+    return render_template('micro.html', data = data)
 
 
 

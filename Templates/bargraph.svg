@@ -9,6 +9,10 @@
 
     {% for state in data["US"] %}
     {% set c = loop.index0 * 10 + 55 %}
-    <rect style="fill:indigo" x="{{c}}" y="{{450 - 450/1600 * data['US'][state]}}" width="5" height="{{450/1600 * data['US'][state]}}" />
+    <rect style="fill:indigo" x="{{c}}" y="{{ 450 -  (data['US'][state] - 960)}}" width="5" height="{{data['US'][state] - 960 }}" />
+
+    {%set abbreviation = state[0]+state[1]+state[2]%}
+    {%set abbreviation = abbreviation.upper()%}
+    <text style = "font-size:4" x = '{{c - 10}}' y = "475">{{abbreviation}}</text>
     {% endfor %}
 </svg>

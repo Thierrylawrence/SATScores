@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 605 500" width="600" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 605 500" width="1000" height="500">
     <line style="stroke:black; stroke-width:3" class="ax" x1="80" y1="450" x2="1000" y2="450" />
     <line style="stroke:black; stroke-width:3" class="ax" x1="80" y1="450" x2="80" y2="10" />
 
 
     <text  style = "color:indigo; font-size:16; transform:rotate(-90deg)" class = "turn" x = "200" y = "55" text-anchor="middle"> Average Scores</text>
 
-    <text  style = "color:indigo; font-size:16" x = "350" y = "475" text-anchor="middle"> State Abbreviation</text>
+    <text  style = "color:indigo; font-size:16" x = "350" y = "475" text-anchor="middle"> District Abbreviation</text>
 
     
 
@@ -26,23 +26,17 @@
 
     {%set abbreviation = county[0]+county[1]+county[2]%}
     {%set abbreviation = abbreviation.upper()%}
+
+    {%if data[state][county] > 960%}
     <text style = "font-size:8" x = '{{c - 5}}' y = "{{ 455 -  (data[state][county] - 960)}}">{{abbreviation}}</text>
+    {%endif%}
     {% endfor %}
 
 
      <rect style="fill:indigo" x="{{595}}" y="{{ 450 -  (1060 - 970)}}" width="2" height="{{1060 - 970 }}" />
      <text style = "font-size:8" x = '{{590}}' y = "{{ 455 -  (1060 - 960)}}"> ALL </text>
 
-     {%if 1000 > 1060%}
 
-     <text style = "font-size:16" x = 200 y = 600> The average SAT for this country is {{1060}} higher than the average for the country.
-     {%endif%}
-
-
-          {%if 1000 < 1060%}
-
-     <text style = "font-size:16" x = 200 y = 600> The average SAT for this country is {{1060}} lower than the average for the country.
-     {%endif%}
 
 
 </svg>

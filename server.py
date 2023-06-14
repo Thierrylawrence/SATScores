@@ -54,7 +54,18 @@ def DC():
     data = json.load(f)
     f.close()
 
-    return render_template('micro.html', data = data, state = "Washington")
+    return render_template('micro.html', data = data, state = "Washington DC")
+
+
+@app.route('/NC')
+def NC():
+
+
+    f = open("templates/scores.json", "r")
+    data = json.load(f)
+    f.close()
+
+    return render_template('micro.html', data = data, state = "North Carolina")
 
 
 

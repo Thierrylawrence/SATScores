@@ -11,6 +11,8 @@
 
 
 
+
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#"> SAT Scores</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,24 +30,41 @@
             <a class="nav-link" href="/graph"> US Graph</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/Westchester"> Westchester </a>
-          </li>
-  
-          <li class="nav-item">
-            <a class="nav-link" href="/DC"> Washington DC </a>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                State
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="/micro/?state=Texas"> Texas </a>
+                <a class="dropdown-item" href="/micro/?state=California">California</a>
+                <a class="dropdown-item" href="/micro/?state=Oregon">Oregon</a>
+              </div>
+            </div>
           </li>
         </ul>
       </div>
     </nav>
 
-    <h1 style = "text-align:center;"> SAT Scores vs. State Bar Graph </h1>
+    <h1 style = "text-align:center;"> {{State}} SAT Scores by district </h1>
+
+
+
 
   
     <div id="graph">
-
-
-      {% include 'bargraph.svg' %}
+      {% include 'microbar.svg' %}
     </div>
+
+
+
+  
+
+
+
+
+
+
+
 
 
 

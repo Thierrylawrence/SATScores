@@ -7,25 +7,42 @@
 
     <text  style = "color:indigo; font-size:16" x = "350" y = "475" text-anchor="middle"> State Abbreviation</text>
 
+    
 
 
 
+    {%set total = 0%}
     {% for c in range(15, 450, 40) %}
     <line style="stroke:black; stroke-width:3" class="tick" x1="70" y1="{{c + 5}}" x2="90" y2="{{c + 5}}"></line>
     <text style="font-size:10" x="55" y="{{c+10}}" text-anchor="middle">{{1400 -(c-10) + 5}}</text>
     {% endfor %}
 
-    {% for state in data["US"] %}
-    {% set c = loop.index0 * 10 + 95 %}
-    <rect style="fill:indigo" x="{{c}}" y="{{ 450 -  (data['US'][state] - 970)}}" width="5" height="{{data['US'][state] - 970 }}" />
+    {% for county in data[state] %}
+  
 
-    {%set abbreviation = state[0]+state[1]+state[2]%}
+    
+    {% set c = loop.index0 * 10 + 95 %}
+    <rect style="fill:indigo" x="{{c}}" y="{{ 450 -  (data[state][county] - 970)}}" width="2" height="{{data[state][county] - 970 }}" />
+
+    {%set abbreviation = county[0]+county[1]+county[2]%}
     {%set abbreviation = abbreviation.upper()%}
-    <text style = "font-size:8" x = '{{c - 5}}' y = "{{ 455 -  (data['US'][state] - 960)}}">{{abbreviation}}</text>
+    <text style = "font-size:8" x = '{{c - 5}}' y = "{{ 455 -  (data[state][county] - 960)}}">{{abbreviation}}</text>
     {% endfor %}
 
-     <rect style="fill:indigo" x="{{595}}" y="{{ 450 -  (1060 - 970)}}" width="5" height="{{1060 - 970 }}" />
+
+     <rect style="fill:indigo" x="{{595}}" y="{{ 450 -  (1060 - 970)}}" width="2" height="{{1060 - 970 }}" />
      <text style = "font-size:8" x = '{{590}}' y = "{{ 455 -  (1060 - 960)}}"> ALL </text>
+
+     {%if 1000 > 1060%}
+
+     <text style = "font-size:16" x = 200 y = 600> The average SAT for this country is {{1060}} higher than the average for the country.
+     {%endif%}
+
+
+          {%if 1000 < 1060%}
+
+     <text style = "font-size:16" x = 200 y = 600> The average SAT for this country is {{1060}} lower than the average for the country.
+     {%endif%}
 
 
 </svg>

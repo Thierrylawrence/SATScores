@@ -62,7 +62,320 @@
     
 
 
-    }
+    },
+
+
+    "Texas" : {},
+
+    "Westchester" : { "Scarsdale"	:357,
+    "Horace Greeley": 1337,
+    "Blind Brook" :	1304,
+    "Rye"	:1260,
+    "Byram Hills"	:1259,
+    "Briarcliff" : 1257,
+    "John Jay "	:1246,
+    "Rye Neck":	1231,
+    "Kennedy Catholic"	:1224,
+    "Croton-Harmon"	:	1220,
+    "Pleasantville":	1218,
+    "Yorktown" 	:1218,
+    "Irvington":	1215,
+    "Rhinebeck" 	:1215,
+    "Eastchester"	:	1201,
+    "Mamaroneck"	:	1193,
+    "Haldane" 	:1185,
+    "Arlington": 	1183,
+    "North Salem": 1177,
+    "Fox Lane" :1168,
+    "Dobbs Ferry"	:1152,
+    "Pawling":1136,
+    "Putnam Valley" :	1135,
+    "Somers"	:1133,
+    "Harrison": 1130,
+    "Hendrick Hudson"	:1128,
+    "Sleepy Hollow":	1128,
+    "Wappingers" 	:1125,
+    "Westlake"	:1125,
+    "Brewster": 1124,
+    "Carmel" 	:1124,
+    "Millbrook" 	:1124,
+    "Mahopac" :	1123,
+   "Lakeland"	:1115,
+    "Walter Panas" :	1115,
+    "Pine Plains" 	:1103,
+    "Valhalla" :1094,
+    "New Rochelle" :1090,
+    "Tuckahoe"	:1090,
+    "Hyde Park" :	1088,
+    "Ossining" :1083,
+    "Woodlands"	:1080,
+    "Beacon City" :	1068,
+    "Dover" :1067,
+    "White Plains" :		1033,
+    "Port Chester" :1021,
+    "Alexander Hamilton":	1020,
+    "Peekskill"	:982,
+    "Poughkeepsie" :	970,
+    "Mount Vernon" :	941,
+    "Yonkers" :	926},
+
+    "Colorado" : {},
+
+    "Connecticut": {},
+
+    "Washington DC" : {
+
+"Benjamin Banneker HS":  1109,
+
+"Columbia Heights EC": 8644,
+"Anacostia HS": 788,
+"Ballou HS": 772,
+"Cardozo EC": 790,
+"Coolidge HS": 788,
+"Roosevelt STAY": 761,
+"Eastern HS": 819,
+"McKinley Technology HS": 1005,
+"Roosevelt HS": 809,
+"Ballou STAY": 724,
+"Woodrow Wilson HS": 1046,
+"Woodson": 789,
+"School Without Walls HS": 1272,
+"Dunbar HS": 801,
+"Duke Ellington School of the Arts": 955,
+"Washington Metropolitan HS": 761,
+"Phelps Architecture":875,
+"Luke C. Moore HS": 801
+    },
+
+
+    "North Carolina" : {
+
+
+
+        "Alamance-Burlington"  :	1041,
+         
+         "Alleghany County" : 1092,
+
+        " Ashe County"  	: 1051,
+        
+        "Avery County " 	:879,
+       
+        "Beaufort County"  	:1100,
+       
+         "Bertie County"  :	1094,
+        
+         "Bladen County"  	:1030,
+        
+         "Brunswick County"  :912,
+        
+         "Buncombe County"  	:942,
+        
+         "Asheville City"  	: 1066,
+        
+         "Burke County"  	: 1114,
+        
+         "Cabarrus County"  :1115,	
+        
+         "Caldwell County"  	:1107,
+       
+         "Carteret County"   	:1095,
+        
+         "Caswell County"  	:1037,
+       
+         "Catawba County"  :	1065,
+        
+         "Hickory City"  	:1115,
+       
+         "Newton Conover City"  :1182,	
+        
+         "Chatham County"  	: 956,
+       
+         "Cherokee County"  :	1092,
+
+         "Edenton-Chowan"  :	1074,
+      
+         "Clay County"  	: 1094,
+       
+         "Cleveland County"  	: 1063,
+        
+         "Columbus County"  	:1117,
+        
+         "Whiteville City"  	:982,
+        
+         "Craven County"  	: 1145, 
+        
+         "Cumberland County"  	:1048,
+       
+         "Currituck County"  	:989,
+       
+         "Dare County"  	: 1033,
+       
+         "Davidson County " 	: 1082,
+        
+         "Lexington City"  	: 1031,
+      
+         "Thomasville City"  	: 1072, 
+      
+         "Davie County"  	: 1099,
+       
+         "Duplin County"  	: 1078,
+   
+         "Durham Public"  	: 958,
+
+         "Edgecombe County" 	: 952,
+
+         "Winston Salem/Forsyth County" 	:1112,
+
+         "Franklin County"  	:977,
+
+         "Gaston County"  	: 1027,
+
+         "Gates County"  	:976,
+
+         "Graham County"  	:1079,
+
+         "Granville County"  	: 1045,
+
+         "Greene County"  	: 1051,
+
+         "Guilford County"  	: 1024,
+        
+         "Halifax County"  	: 1049,
+
+         "Roanoke Rapids City"  	: 1032,
+
+         "Weldon City"  	:933,
+
+         "Harnett County"  	: 1056,
+
+         "Haywood County"  	:903,
+
+         "Henderson County"  	:914,
+
+         "Hertford County"  	:1018,
+
+         "Hoke County"  :	1086,
+
+         "Hyde County"  	: 1103,
+
+         "Iredell-Statesville" 	:878,
+
+         "Mooresville" :	941,
+
+         "Jackson County"  	: 1012,
+
+         "Johnston County"  	:1114,
+
+         "Jones County"  	:1119,
+
+         "Lee County"  	:1108,
+ 
+         "Lenoir County"  	:1080,
+
+         "Lincoln County"  	:1044,
+
+         "Macon County"  	:1001,
+
+         "Madison County"  	:1092,
+
+         "Martin County"  	:1110,
+
+         "Mcdowell County"  	:1065,
+
+         "Charlotte-Mecklenburg"  	:987,
+
+         "Mitchell County"  	:1049,
+
+         "Montgomery County"  	: 1066,
+
+         "Moore County"  	:1019,
+
+         "Nash-Rocky Mount"  	: 1022,
+
+         "New Hanover County"  	:1117,
+
+         "Onslow County"  	:929,
+
+         "Orange County"  	: 1061,
+
+         "Chapel Hill-Carrboro City" 	: 1133,
+
+
+         "Elizabeth City-Pasquotank" 	: 1231,
+
+         "Pender County"  	: 1060,
+
+         "Perquimans County"  	: 981,
+
+         "Person County"  	: 1086,
+
+         "Pitt County"  	: 1012,
+
+         "Polk County"  	: 1008,
+
+
+         "Randolph County"  	: 1012,
+
+         "Asheboro City"  	: 1008,
+
+         "Richmond County"  	:1011,
+
+         "Robeson County"	:1160,
+
+         "Rockingham County"  	:1060,
+
+
+         "Rowan-Salisbury"  	:1013,
+ 
+         "Rutherford County"  	:979,
+
+         "Sampson County"  	: 968,
+
+         "Clinton City"  	:1020,
+
+         "Scotland County"  	:1024,
+
+         "Stanly County"  :	1015,
+
+         "Stokes County"  :	1024,
+
+         "Surry County"  	:1015,
+
+         "Elkin City"  	:955,
+
+         "Mount Airy City"  	:1036,
+
+         "Swain County"  	:1066,
+
+         "Transylvania County"  	:1116,
+
+         "Tyrrell County"  	:1042,
+
+         "Union County Public"  	:1103,
+
+         "Vance County" 	: 1058,
+
+         "Wake County"  	:1106,
+
+
+ 
+         "Warren County" 	:1016,
+
+         "Washington County"  	:1135,
+
+         "Wayne County" 	: 930,
+
+         "Wilkes County" 	:1130,
+
+         "Wilson County"  :	905,
+
+         "Yadkin County"  	:884,
+
+         "Yancey County" : 1083
+    },
+
+    "South Carolina" : {}
+    
 
 
 

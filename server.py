@@ -32,7 +32,31 @@ def graph():
     data = json.load(f)
     f.close()
 
-    return render_template('micro.html', data = data)
+    return render_template('graph.html', data = data)
+
+
+@app.route('/Westchester')
+def micro():
+
+
+    f = open("templates/scores.json", "r")
+    data = json.load(f)
+    f.close()
+
+    return render_template('micro.html', data = data, state = "Westchester")
+
+
+@app.route('/DC')
+def DC():
+
+
+    f = open("templates/scores.json", "r")
+    data = json.load(f)
+    f.close()
+
+    return render_template('micro.html', data = data, state = "Washington")
+
+
 
 
 

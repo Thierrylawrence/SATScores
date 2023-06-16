@@ -67,6 +67,27 @@ def NC():
 
     return render_template('micro.html', data = data, state = "North Carolina")
 
+@app.route('/Colorado')
+def Colorado():
+
+
+    f = open("templates/scores.json", "r")
+    data = json.load(f)
+    f.close()
+
+    return render_template('micro.html', data = data, state = "Colorado")
+
+
+@app.route('/SC')
+def SC():
+
+
+    f = open("templates/scores.json", "r")
+    data = json.load(f)
+    f.close()
+
+    return render_template('micro.html', data = data, state = "South Carolina")
+
 
 
 

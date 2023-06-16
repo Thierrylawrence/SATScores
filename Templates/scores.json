@@ -119,9 +119,121 @@
     "Mount Vernon" :	941,
     "Yonkers" :	926},
 
-    "Colorado" : {},
+    "Colorado" : {
+    "Mapleton 1": 986,
 
-    "Connecticut": {},
+   "Adams County 14":875,
+
+    "School District 27J": 983,
+
+    "Bennett 29J": 814,
+
+    "Strasburg 31J": 963,
+
+    "Westminster Public Schools": 880,
+
+    "Alamosa RE-11J": 964,
+
+    "Sangre De Cristo Re-22J": 843,
+
+    "Englewood 1": 964,
+
+    "Sheridan 2": 881,
+
+
+    "Cherry Creek 5": 1043,
+
+    "Littleton 6": 1082,
+
+    "Deer Trail 26J": 980,
+
+    "Adams-Arapahoe 28J": 987,
+
+
+    "Byers 32J":991,
+
+    "Archuleta County 50 Jt": 1001,
+
+    "Walsh RE-1": 1102,
+
+    "Pritchett RE-3":1009,
+
+    "Springfield RE-4":1027,
+
+    "Vilas RE-5":968,
+
+    "Campo RE-6": 975,
+
+    "Las Animas RE-1":1038,
+
+    "McClave Re-2":1012,
+
+    "St Vrain Valley RE1J":999,
+
+    "Boulder Valley Re 2":998,
+
+    "Buena Vista R-31":1000,
+
+    "Salida R-32":1020,
+
+    "Kit Carson R-1":1070,
+
+    "Cheyenne County Re-5":882,
+
+    "Clear Creek RE-1": 923,
+
+    "North Conejos RE-1J": 981,
+
+    "Sanford 6J": 1004,
+
+    "South Conejos RE-10": 1012,
+
+    "Centennial R-1": 823,
+
+    "Sierra Grande R-30": 985,
+
+    "Crowley County RE-1-J": 992,
+
+    "Custer County School District C-1":1003,
+
+    "Delta County 50(J)":1005,
+
+    "Denver County 1":1042,
+
+    "Dolores County RE No.2": 818,
+
+    "Douglas County Re 1" : 920,
+
+    "Eagle County RE 50": 990,
+
+    "Elizabeth School District": 1006,
+
+    "Kiowa C-2": 1050,
+
+
+    "Big Sandy 100J": 1064,
+
+    "Elbert 200": 812,
+
+    "Agate 300": 969,
+
+    "Calhan RJ-1":995,
+
+    "Harrison 2":1009
+
+   
+   
+
+},
+
+    "Connecticut": {
+
+
+
+
+
+        
+    },
 
     "Washington DC" : {
 
@@ -374,7 +486,69 @@
          "Yancey County" : 1083
     },
 
-    "South Carolina" : {}
+    "South Carolina" : {
+
+        
+
+
+ "ABBEVILLE":1058,
+"AIKEN": 1002,
+"ALLENDALE":1052,
+"ANDERSON 1":871,
+"BAMBERG 1":1096,
+"BAMBERG 2":1075,
+"BARNWELL 19":1018,
+"BARNWELL 29":1042,
+"BARNWELL 45":1053,
+"BEAUFORT":1070,
+"BERKELEY":887,
+"CALHOUN":925,
+"CHARLESTON":898,
+"CHEROKEE":1026,
+"CHESTER":1047,
+"CHESTERFIELD":1066,
+"CLARENDON 1":989,
+"COLLETON":1089,
+"DARLINGTON":1026,
+"DILLON 3":1072,
+"DORCHESTER 2":1004,
+"EDGEFIELD":1110,
+"FAIRFIELD":1067,
+"FLORENCE 1":999,
+"GEORGETOWN":968,
+"GREENVILLE":1028,
+"GREENWOOD 50":1004,
+"HAMPTON 1":1110,
+"HAMPTON 2":1035,
+"HORRY":974,
+"JASPER":1056,
+"KERSHAW":997,
+"LANCASTER":988,
+"LAURENS 55":1067,
+"LAURENS 56":973,
+"LEE":1068,
+"LEXINGTON 1":922,
+"LEXINGTON/RICHLAND  5":1010,
+"MCCORMICK":991,
+"MARION 10":928,
+"MARLBORO":852,
+"NEWBERRY":1171,
+"OCONEE":987,
+"ORANGEBURG 3":1088,
+"ORANGEBURG 4":1050,
+"ORANGEBURG 5":986,
+"PICKENS":1003,
+"RICHLAND 1":937,
+"RICHLAND 2":1101,
+"SALUDA":945,
+"SPARTANBURG 1":1040,
+"SUMTER":1008,
+"UNION":993,
+"WILLIAMSBURG":993,
+"YORK 1":820
+
+
+    }
     
 
 
